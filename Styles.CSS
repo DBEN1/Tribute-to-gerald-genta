@@ -9,12 +9,14 @@ p {
 
 .Watch-Card {
     position: relative;
-    width: 300px;
+    width: 300;
     height: 400px;
     margin-bottom: 20px;
     display: flex;
-    flex-direction: row
-    
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
 }
 
 .first-image, .second-image {
