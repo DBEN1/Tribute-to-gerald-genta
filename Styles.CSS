@@ -13,6 +13,13 @@ p {
     text-decoration: none;
     color: blueviolet;
     text-transform: capitalize;
+    border-right: 1px solid blueviolet;
+}
+
+.link2 {
+    text-decoration: none;
+    color: blueviolet;
+    text-transform: capitalize;
 }
 
 ul {
@@ -27,15 +34,12 @@ ul a:hover {
   #info{
     margin-top: 40px;
     clear: both;
-
-  }
-
-  * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-align: justify;
-    background-color: beige
+    width:80%;
+
     
 }
 .car0 { 
@@ -127,7 +131,7 @@ h4 {
         margin-right: auto;
         width: 40%;
       }
-.la-moumou-a-gege {
+.center{
     text-align: center;
 
 }
